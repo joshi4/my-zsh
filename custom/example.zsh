@@ -1,5 +1,19 @@
 # Add yourself some shortcuts to projects you often work on
-# Example:
-#
-# brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
-#
+alias ls='ls -G'
+alias sl='ls'
+alias la='ls -a'
+alias ll='ls -lha'
+alias cler='clear'
+alias whale='ssh -X joshi4@whale.stanford.edu'
+alias madmax='ssh -X joshi4@madmax1.stanford.edu'
+alias coreoskam='ssh shantanu@kam.libcore.so'
+alias ssh_ca='ssh -i ~/aws-ec2/shantanu.pem core@ec2-54-166-129-131.compute-1.amazonaws.com'
+alias ssh_server='ssh -i ~/aws-ec2/shantanu.pem core@ec2-54-226-162-79.compute-1.amazonaws.com'
+alias ssh_username='ssh crawford@ec2-54-226-162-79.compute-1.amazonaws.com'
+alias octave='open -a "Octave"'
+##### Begin Android aliases. 
+alias eclipse='open -a ~/Development/adt-bundle-mac-x86_64-20130917/eclipse/eclipse.app'
+alias android_sdk='/Users/shantanu/Development/adt-bundle-mac-x86_64-20130917/sdk/tools/android'
+alias macvim='open -a "MacVim"'
+alias emacs='/opt/local/bin/emacs'
+alias startMongo='source ~/terminal_scripts/startMongo.sh'
